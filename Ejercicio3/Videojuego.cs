@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Ejercicio3
 {
-    class Videojuego
+    public class Videojuego
     {
         string titulo { set; get; }
-        int anho { set; get; }
-        enum Estilo
+        public int anho { set; get; }
+        public enum Estilo
         {
             Arcade,
             Videoaventura,
